@@ -1,0 +1,28 @@
+<div class="quotebook-container">
+  <!-- <div class="title">
+        <h1>My Quote Book</h1>
+      </div> -->
+
+      <div class="filter-container">
+        <img src="../img/icons/Search.svg" /> <input type="text" placeholder="Search" ng-model="filterText"></input>
+      </div>
+
+      <section class="container">
+        <div>
+          <q><input id="newQuoteInput" type="text" placeholder="Add new quote here!" ng-model="newQuoteText" class="add-quote"></input></q>
+          <!-- Below is a way to make the new quote expand out the quotes with how long the new quote is. I need to find a way to combine the two (i.e., to add a placeholder text to the below example). -->
+          <!-- <q><span class="add-quote" contenteditable="true">Add new quote here!</span></q> -->
+          <br>
+          <span class="add-author">– <input id="newAuthorInput" type="text" placeholder="Add author here!" ng-model="newQuoteAuthor"></input></span>
+          <span class="addButton-circle" ng-click="addQuote()"></span>
+        </div>
+
+        <div ng-repeat="quote in quotes | filter: filterText">
+          <q class="text">{{quote.text}}</q>
+          <br>
+          <p class="author">– {{quote.author}}</p>
+          <!-- <button class="deleteButton" ng-click="removeData">X</button> -->
+          <span class="deleteButton-circle" ng-click="deleteMe(quote.text)"></span>
+        </div>
+      </section>
+</div>

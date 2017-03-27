@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:500');
+/*@import url('http://allfont.net/allfont.css?fonts=minion-cyrillic-semibold');*/
+@import url('https://db.onlinewebfonts.com/c/ec1f36c35b8b75a3931d8e50f53ae189?family=Minion+Cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+
+.quotebook-container {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 5%;
+  background-color: #f6fffb;
+  align-items: center;
+}
+
+/*.title {
+  width: 95%;
+  height: auto;
+  margin: auto;
+  margin-top: 60px;
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+  font-size: 75px;
+}*/
+
+.filter-container {
+  width: 95%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 25px;
+  /*margin-top: 25px;*/
+  text-align: right;
+}
+
+.filter-container img {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  right: 160px;
+  margin-top: 2px;
+}
+
+.container {
+  width: 95%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 40px;
+  background-color: rgb(246, 255, 251);
+  box-shadow: 0px -1px 1px 1px rgb(185, 185, 185);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.container div {
+  padding: 25px 20px 25px 20px;
+  box-shadow: 0px 8px 3px 1px rgb(185, 185, 185);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.addButton-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  float: right;
+  border-radius: 75%;
+  background-color: rgba(255, 255, 255, 0);
+  background-image: url('../img/icons/add-button.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 95%;
+  margin-top: 5px;
+}
+
+.addButton-circle:hover {
+  box-shadow: 0px 0px 3px 2px rgb(120,190,245);
+  cursor: pointer;
+}
+
+.add-quote {
+  border-style: none;
+  background-color: transparent;
+  width: 255px;
+  height: auto;
+  font-family: 'Minion Cyrillic', serif;
+  font-size: 20px;
+  color: #3a3a3a;
+  text-align: left;
+}
+
+.add-quote::-webkit-input-placeholder {
+   color: #3a3a3a;
+}
+
+.add-quote:-moz-placeholder { /* Firefox 18- */
+   color: #3a3a3a;
+}
+
+.add-quote::-moz-placeholder {  /* Firefox 19+ */
+   color: #3a3a3a;
+}
+
+.add-quote:-ms-input-placeholder {
+   color: #3a3a3a;
+}
+
+.add-author {
+  padding-top: 10px;
+  font-family: 'Minion Cyrillic', serif;
+  font-size: 20px;
+  color: #717171;
+}
+
+.add-author input {
+  width: 225px;
+  font-family: 'Minion Cyrillic', serif;
+  font-size: 20px;
+  border-style: none;
+  background-color: transparent;
+}
+
+.add-author input::-webkit-input-placeholder {
+   color: #717171;
+}
+
+.add-author input:-moz-placeholder { /* Firefox 18- */
+   color: #717171;
+}
+
+.add-author input::-moz-placeholder {  /* Firefox 19+ */
+   color: #717171;
+}
+
+.add-author input:-ms-input-placeholder {
+   color: #717171;
+}
+
+.deleteButton-circle {
+  width: 30px;
+  height: 30px;
+  margin-top: -20px;
+  text-align: center;
+  float: right;
+  border-radius: 75%;
+  background-color: rgba(255, 255, 255, 0);
+  background-image: url('../img/icons/delete-button-png-28567.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.deleteButton-circle:hover {
+  box-shadow: 0px 0px 3px 1px rgb(185, 50, 50);
+  cursor: pointer;
+}
+
+.container .text {
+  width: 100%;
+  height: auto;
+  margin-right: 10%;
+  font-family: 'Minion Cyrillic', serif;
+  font-size: 20px;
+  color: rgb(58, 58, 58);
+}
+
+.container .author {
+  padding-top: 10px;
+  font-family: 'Minion Cyrillic', serif;
+  font-size: 20px;
+  color: rgb(113, 113, 113);
+}
+
+q {
+  quotes: "“" "”" "‘" "’";
+  line-height: 0.85;
+}
+q:before {
+  content: open-quote;
+  font-size: 35px;
+  font-family: 'Slabo 27px', 'Alegreya Sans', serif;
+}
+q:after {
+  content: close-quote;
+  font-size: 35px;
+  font-family: 'Slabo 27px', 'Alegreya Sans', serif;
+}
