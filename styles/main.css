@@ -734,23 +734,12 @@ button:active {
 
 .home-design-portfolio .additional-projects-container {
   height: auto;
-  margin-bottom: 150px;
+  margin-bottom: 125px;
 }
 
 /*.home-design-portfolio .additional-projects-container img {
   box-shadow: 0px 0px 9px rgba(0,0,0,.35);
 }*/
-
-/* CONTACT */
-
-.home-contact-me {
-  width: 100%;
-  height: 100vh;
-  margin: auto;
-  background-color: #f6f6f6;
-  text-align: center;
-  padding-top: 110px;
-}
 
 .top-arrow-container {
   width: 55px;
@@ -759,13 +748,14 @@ button:active {
   text-align: center;
   /*border: 1px solid black;
   border-radius: 50%;*/
+  background: #ffffff;
 }
 
 .anchor-up {
   transform: rotate(180deg);
   margin: auto;
   margin-top: -9px;
-  margin-left: -2px;
+  /*margin-left: -2px;*/
 }
 
 .anchor-up img {
@@ -778,17 +768,71 @@ button:active {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 18px;
   letter-spacing: 3px;
-  padding-left: 2px;
+  padding-left: 4px;
   margin-top: -6px;
 }
 
-.logo {
+/* CONTACT */
+
+.home-contact-me {
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  background-color: #f6f6f6;
+  text-align: center;
+  padding-top: 110px;
+}
+
+/* REVEALED FOOTER */
+
+.footer-margin {
+  width: 100vw;
+  height: 1px;
+  margin: auto;
+  margin-bottom: 425px;
+  background-color: #f6f6f6;
+}
+
+footer {
+  width: 100%;
+  height: 425px;
+  margin: auto;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  z-index: -1;
+  position: fixed;
+  bottom: 0;
+  background-color: #f6f6f6;
+}
+
+footer a {
+  color: #333333;
+}
+
+footer a:hover {
+  opacity: .5;
+}
+
+.revealed-footer-links {
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+
+.revealed-footer-links img {
+  width: 25px;
+  height: auto;
+  margin: auto;
+  padding-bottom: 5px;
+}
+
+.revealed-footer-links h3 {
 
 }
 
-.next-section {
-
-}
+/* OLD PORTFOLIO SECTIONS */
 
 .next-section embed {
   width: 40px;
@@ -927,7 +971,7 @@ button:active {
 
 /* ∨ FOOTER ∨ */
 
-footer {
+/*footer {
   width: 100%;
   height: 15vh;
   margin: auto;
@@ -949,7 +993,7 @@ footer button {
   background-color: rgba(15, 15, 15, 1);
   color: rgba(255,255,255,1);
   padding: 10px;
-}
+}*/
 
 /* ANIMATIONS */
 

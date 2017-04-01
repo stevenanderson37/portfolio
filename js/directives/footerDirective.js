@@ -4,7 +4,7 @@ angular.module('portfolioApp')
   return {
     restrict: 'AE',
     templateUrl: '../views/footerDirective.html'
-    }
+  }
 
 
 });
