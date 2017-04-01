@@ -468,6 +468,33 @@ button:active {
   padding-bottom: 25px;
 }*/
 
+/* CONTACT SIDEBAR */
+.contact-icons-sidebar {
+  width: 30px;
+  height: 200px;
+  position: fixed;
+  right: 0px;
+  bottom: 20px;
+  transition: transform 600ms;
+  transform: translateX(30px);
+}
+
+.fixed-sidebar {
+  position: fixed;
+  transform: translateX(-30px);
+}
+
+.contact-icons-sidebar img {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.contact-icons-sidebar img:hover {
+  opacity: .5;
+}
+
 /* ABOUT */
 
 .home-about-me {
@@ -536,6 +563,7 @@ button:active {
   width: 100%;
   height: auto;
   margin: auto;
+  padding-bottom: 50px;
   background-color: #f6f6f6;
   text-align: center;
   padding-top: 110px;
@@ -551,7 +579,8 @@ button:active {
   width: 170px;
   height: auto;
   margin: auto;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 25px;
   display: flex;
   flex-flow: row;
   text-align: center;
@@ -580,13 +609,13 @@ button:active {
   width: 22%;
   height: 28vh;
   margin: auto;
-  margin-bottom: 3vw;
+  margin-bottom: 2vw;
   /*background-color: white;*/
 }
 
 .developer-thumbnail img {
-  width: auto;
-  height: 100%;
+  width: 100%;
+  height: auto;
   margin: auto;
 }
 
@@ -594,7 +623,7 @@ button:active {
   width: 22%;
   height: 28vh;
   margin: auto;
-  margin-bottom: 3vw;
+  margin-bottom: 2vw;
   /*background-color: white;*/
 }
 
@@ -602,7 +631,8 @@ button:active {
   width: 100%;
   height: auto;
   margin: auto;
-  padding-top: 13px;
+  padding-top: 25px;
+  box-shadow: 0px 0px 9px rgba(0,0,0,.35);
 }
 
 .developer-thumbnail-info {
@@ -617,16 +647,99 @@ button:active {
 
 }
 
+.home-developer-portfolio h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.additional-projects-container {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.additional-thumbnail-container {
+  width: 22%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.home-developer-portfolio h4 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.additional-thumbnail {
+  width: 100%;
+  height: 28vh;
+  margin: auto;
+}
+
+.additional-thumbnail img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.additional-project-links {
+  width: 170px;
+  height: auto;
+  margin: auto;
+  margin-bottom: 20px;
+  display: flex;
+  flex-flow: row;
+  text-align: center;
+}
+
+.additional-project-links a {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.additional-project-links p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 /* DESIGNER PORTFOLIO */
 
 .home-design-portfolio {
   width: 100%;
-  height: 100vh;
+  height: auto;
   margin: auto;
   background-color: #ffffff;
   text-align: center;
   padding-top: 110px;
 }
+
+.home-design-portfolio h4 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.home-design-portfolio .additional-thumbnail-container {
+  height: auto;
+  margin-bottom: 3vw;
+}
+
+.home-design-portfolio .additional-projects-container {
+  height: auto;
+  margin-bottom: 150px;
+}
+
+/*.home-design-portfolio .additional-projects-container img {
+  box-shadow: 0px 0px 9px rgba(0,0,0,.35);
+}*/
 
 /* CONTACT */
 
